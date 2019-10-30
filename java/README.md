@@ -150,3 +150,7 @@ mvn的插件
 java执行命令的任务是：
 
 ​	java -classpath demo-project-1.0.jar  com.fengz.Test
+    java -cp  -Dloader.path=
+
+java 的代码混淆，可以方便把jar包分享给客户而不用担心被误解
+    proguard

@@ -95,3 +95,25 @@ rebase有两个作用
 * 如果没有冲突，他会自动merge一次pr到你的分支里面的内容里
 
 以上都会导致你的pr里面，会有额外的内容，很难看，解决方法就是需要先拉取upstream的代码到本地，然后在branch里rebase一下拉取的最新的master的内容，这样再次提交就会把分支的根移动到最新的代码下，不会有额外的内容
+
+
+
+github的完整的工作流程
+    1.项目到github
+    2.zenhub，武装你的项目
+        一套任务模板
+        一套个人的todo list
+        一套项目图标与统计
+        一些其他的小彩蛋在github里面
+    3.持续集成
+        jenkins
+        TravisCI / CircleCI 
+    4.代码review
+        Reviewable
+    5.代码的测试覆盖率
+        Coveralls
+        代码测试：mock
+            接口的压测：jmeter
+            数据库类型的压测：tpc、tco
+    6.快速沟通
+        Slack
