@@ -136,3 +136,17 @@ functional interface  single abstract method interfaces
 ​	一个接口内，只有一个未实现的方法；该接口作为某个方法的参数；
 
 ​	其他的方法调用这个方法的时候，通过lambda表达式实现接口即可
+
+
+
+
+
+mvn的插件
+
+​	check-style的插件
+
+
+
+java执行命令的任务是：
+
+​	java -classpath demo-project-1.0.jar  com.fengz.Test
